@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  background-color: lightgoldenrodyellow;
+  font-family: Arial, sans-serif;
+  color: blueviolet;
+  line-height: 1.5em;
+  font-size: large;
+}
+
+p.boxStyle{
+
+  border: blueviolet 2px solid;
+  background-image: url("../image1.jpg");
+  padding: 10px;
+}
+
+img{
+  width: 500px;
+
+  /* Following three properties were used to center horizontally. But in css3 there are better ways. */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

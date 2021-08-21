@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background-color: lightgoldenrodyellow;
+  font-family: Arial, sans-serif;
+  color: blueviolet;
+  font-size: large;
+}
+
+.panel {
+  background-color: darkgoldenrod;
+  border-radius: 10px;
+  color: darkblue;
+  padding: 10px;
+}
+
+.absolutePosition{
+  position: absolute;
+  top: 400px;
+}
+
+.relPosition{
+  position: relative;
+
+  top: 350px;
+}
+
+.fixPosition{
+  position: fixed;
+  top: 500px;
+  left: 50px;
+}

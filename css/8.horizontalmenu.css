@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background-color: lightgoldenrodyellow;
+  font-family: Arial, sans-serif;
+  color: blueviolet;
+}
+
+#main {
+  background-color: darkgoldenrod;
+  height: 50px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+
+}
+
+ul li{
+  display: inline;
+  padding: 20px;
+  /*vertical-align: middle;*/
+  line-height: 50px;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 12px;
+}
+
+
+ul li a:hover{
+  color: darkgoldenrod;
+  background-color: lightgoldenrodyellow;
+}
+
+h1{
+  text-align: center;
+}

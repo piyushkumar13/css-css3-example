@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: lightgoldenrodyellow;
+  font-family: Arial, sans-serif;
+  color: blueviolet;
+  line-height: 1.5em;
+  font-size: large;
+}
+
+p,h1,h2,div {
+  border: burlywood 2px solid;
+  background-color: cyan;
+  margin: 10px;
+}
+
+img{
+  border: brown 2px solid;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: darkgoldenrod;
+  margin: 10px;
+}
+
+span, label {
+  background-color: crimson;
+  color: black;
+  /* Margin in span adds only aside of span tag not top and bottom.
+     Basically, margin in inline element gets according to their functionality.
+     In image tag, margin adds like block element i.e in all directions. */
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}

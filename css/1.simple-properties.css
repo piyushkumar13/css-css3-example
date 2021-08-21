@@ -1,0 +1,16 @@
+body {
+  background-color: lightgoldenrodyellow;
+  font-family: Arial, sans-serif;
+  color: blueviolet;
+  font-size: x-large;
+  line-height: 1.5em;
+}
+
+h1, h2{
+  text-decoration: underline;
+}
+
+p {
+  font-weight: bold;
+  font-style: italic;
+}
