@@ -1,0 +1,23 @@
+body{
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+}
+
+#content{
+  display: grid;
+  /*grid-template-columns: 33.33% 33.33% 33.33%;*/ /* We can do like this */
+  /*grid-template-columns: 1fr 1fr 1fr; */ /* We can do like this */
+  /*grid-template-columns: 1fr 2fr 1fr;*/ /* We can also increase the column width like this */
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+}
+
+#content div{
+  background-color: #3bbced;
+  padding: 30px;
+}
+
+#content div:nth-child(even){
+  background-color: #777;
+}

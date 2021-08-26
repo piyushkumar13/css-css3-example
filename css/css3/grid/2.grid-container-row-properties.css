@@ -1,0 +1,24 @@
+body{
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  background-color: white;
+}
+
+#content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /*grid-auto-rows: 200px; */ /* It specifies automatically created row height fixed to 200px */
+  /* grid-auto-rows: minmax(200px, auto); */ /* It specifies automatically created row height which can span from 200px to the height based on content*/
+  grid-template-rows: repeat(4, minmax(200px, auto)); /* Specifies number of rows with height*/
+  grid-row-gap: 10px;
+}
+
+#content div{
+  background-color: #3bbced;
+  padding: 30px;
+}
+
+#content div:nth-child(even){
+  background-color: #777;
+}

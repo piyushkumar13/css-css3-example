@@ -1,0 +1,46 @@
+body {
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  background-color: white;
+  margin: 0;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 10px;
+  grid-template-areas:
+  "myheader myheader myheader myheader"
+  "myaside myaside mymain mymain"
+  "myaside myaside mymain mymain"
+  "mynav mynav mymain mymain"
+  "mynav mynav mymain mymain"
+  "myfooter myfooter myfooter myfooter";
+}
+
+#content * {
+  background-color: #3bbced;
+  padding: 30px;
+}
+
+header{
+  grid-area: myheader;
+}
+
+aside {
+  grid-area: myaside;
+}
+
+nav {
+  grid-area: mynav;
+}
+
+main {
+  grid-area: mymain;
+}
+
+footer {
+  grid-area: myfooter;
+}
