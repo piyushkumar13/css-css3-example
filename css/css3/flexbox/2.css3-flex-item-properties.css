@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  background-color: antiquewhite;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+
+.container-1 {
+  background-color: white;
+  color: white;
+  font-size: xxx-large;
+  text-align: center;
+  display: flex;
+  border: solid 10px black;
+}
+
+.flex-item-1 {
+  padding: 15px;
+
+}
+
+.item-1 {
+  background-color: cornflowerblue;
+  order: 1; /* By default order is 0*/
+}
+.item-2 {
+  background-color: #2d3436;
+}
+.item-3 {
+  background-color: #95a5a6;
+  order: 2;
+}
+.item-4 {
+
+  background-color: darkolivegreen;
+  order: 3;
+}
+
+
+
+.flex-item-2 {
+  padding: 15px;
+  flex-grow: 1;
+}
+.item-5 {
+  background-color: cornflowerblue;
+  flex-grow: 2; /* Default value is 0*/
+  flex-shrink: 2; /* Default value is 1*/
+}
+.item-6 {
+  background-color: #2d3436;
+
+}
+.item-7 {
+  background-color: #95a5a6;
+}
+.item-8 {
+
+  background-color: darkolivegreen;
+}
+
+
+.flex-item-3 {
+  padding: 15px;
+  flex-basis: 300px; /* Default value is auto. It basically specifies the width of an item. Flex-grow and flex-shrink if specified will be applied on top of it.*/
+}
+.item-9 {
+  background-color: cornflowerblue;
+}
+.item-10 {
+  background-color: #2d3436;
+
+}
+.item-11 {
+  background-color: #95a5a6;
+}
+.item-12 {
+
+  background-color: darkolivegreen;
+}
+
+
+.flex-item-4 {
+  padding: 15px;
+  flex: 1 1 100px;
+}
+.item-13 {
+  background-color: cornflowerblue;
+}
+.item-14 {
+  background-color: #2d3436;
+
+}
+.item-15 {
+  background-color: #95a5a6;
+}
+.item-16 {
+
+  background-color: darkolivegreen;
+}
+
+
+
+
+.container-2 {
+  background-color: white;
+  color: white;
+  font-size: xxx-large;
+  text-align: center;
+  display: flex;
+  border: solid 10px black;
+  height: 400px;
+}
+
+.flex-item-5 {
+  padding: 15px;
+}
+.item-17 {
+  background-color: cornflowerblue;
+  align-self: flex-start; /* Default value of align-self is auto i.e default value is picked from the value from align-items from the enclosing container */
+}
+.item-18 {
+  background-color: #2d3436;
+  align-self: flex-end;
+
+}
+.item-19 {
+  background-color: #95a5a6;
+}
+.item-20 {
+
+  background-color: darkolivegreen;
+  align-self: center;
+}

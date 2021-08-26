@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background-color: lightgoldenrodyellow;
+  font-family: Arial, sans-serif;
+  color: blueviolet;
+}
+
+#myheading { /* Id Selector */
+  text-decoration: underline;
+  text-align: center;
+}
+
+ul li { /* Descendent selector */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+ul a:hover { /* Descendent selector with pseudo class */
+  color: darkgoldenrod;
+  background-color: blueviolet;
+}
+
+blockquote > b { /* Child selector - selects only the immediate "b" child */
+  color: blueviolet;
+  background-color: darkkhaki;
+}
+
+h1 + h2 { /* Sibling selector - selects only immediate sibling */
+  color: crimson;
+}
+
+h1 ~ p { /* Sibling selector - selects all the "p" siblings */
+  color: cadetblue;
+}
+
+h2[lang="ind"] { /* Attribute selector - match with attribute with value "ind" */
+  color: cornflowerblue;
+}
+
+h2[lang^="ins"] { /* Attribute selector - match with attribute with value that starts with "ins" */
+  color: chartreuse;
+}
+
+h2[lang$="ko"] { /* Attribute selector - match with attribute with value that ends with "ko" */
+  color: darkolivegreen;
+}
+
+h2[lang*="di"] { /* Attribute selector - match with attribute with value that contains "di" */
+  color: gold;
+}
+
+#textdiv1 p:nth-child(even){ /* nth child selector - selects all even "p" tags */
+  color: aqua;
+}
+
+#textdiv2 p:nth-child(odd){ /* nth child selector - selects all odd "p" tags */
+  color: aqua;
+}
+
+#textdiv3 p:nth-child(3){ /* nth child selector - selects 3rd "p" tag */
+  color: aqua;
+}
+
+#textdiv4 p:nth-child(3n){ /* nth child selector - selects every 3rd "p" tags */
+  color: aqua;
+}
+
+#textdiv5 p:nth-child(3n + 4){ /* nth child selector - selects every 3rd "p" tags after 4th tag. 4th tag will be selected first.*/
+  color: aqua;
+}

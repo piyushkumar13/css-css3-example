@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  background-color: antiquewhite;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+
+.container-1 {
+  background-color: white;
+  color: white;
+  font-size: xxx-large;
+  text-align: center;
+  display: flex;
+  border: solid 10px black;
+}
+
+.container-2 {
+  background-color: white;
+  color: white;
+  font-size: xxx-large;
+  text-align: center;
+  display: inline-flex;
+  border: solid 10px black;
+}
+
+.container-3{
+  background-color: white;
+  color: white;
+  font-size: xxx-large;
+  text-align: center;
+  display: flex;
+  flex-direction: row-reverse; /* Default is row. Possible values row-reverse, column, column-reverse */
+  border: solid 10px black;
+}
+
+.container-4{
+  background-color: white;
+  color: white;
+  font-size: xxx-large;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Default is row. Possible values row-reverse, column, column-reverse */
+  border: solid 10px black;
+}
+
+.container-5{
+  background-color: white;
+  color: white;
+  font-size: xxx-large;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap; /* Default is nowrap. Possible values wrap, nowrap and wrap-reverse */
+  border: solid 10px black;
+}
+
+.container-6{
+  background-color: white;
+  color: white;
+  font-size: xxx-large;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap-reverse; /* shortcut for flex-direction and flex-wrap */
+  border: solid 10px black;
+  height: 450px;
+}
+
+
+.container-7{
+  background-color: white;
+  color: white;
+  font-size: xxx-large;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Possible values are center, space-around, space-between, space-evently, flex-end, flex-start. Default is flex-start. */
+  border: solid 10px black;
+}
+
+.container-8{
+  background-color: white;
+  color: white;
+  height: 500px;
+  font-size: xxx-large;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Possible values are center, flex-start, flex-end, baseline, stretch. Default is stretch.*/
+  border: solid 10px black;
+}
+
+
+.container-9{
+  background-color: white;
+  color: white;
+  height: 500px;
+  font-size: xxx-large;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around; /* Its functionality is combination of align-items and justify-contents. It basically deals with spacing between */
+  border: solid 10px black;
+}
+
+.flex-item {
+  padding: 15px;
+
+}
+
+
+.item-1 {
+  background-color: cornflowerblue;
+}
+
+
+.item-2 {
+  background-color: #2d3436;
+
+}
+
+
+.item-3 {
+  background-color: #95a5a6;
+
+}
+
+
+.item-4 {
+
+  background-color: darkolivegreen;
+}
