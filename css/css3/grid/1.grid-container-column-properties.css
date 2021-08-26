@@ -1,10 +1,10 @@
-body{
+body {
   color: white;
   text-align: center;
   font-size: xx-large;
 }
 
-#content{
+#content {
   display: grid;
   /*grid-template-columns: 33.33% 33.33% 33.33%;*/ /* We can do like this */
   /*grid-template-columns: 1fr 1fr 1fr; */ /* We can do like this */
@@ -13,11 +13,11 @@ body{
   grid-column-gap: 10px;
 }
 
-#content div{
+#content div {
   background-color: #3bbced;
   padding: 30px;
 }
 
-#content div:nth-child(even){
+#content div:nth-child(even) {
   background-color: #777;
 }

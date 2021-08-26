@@ -19,20 +19,20 @@ nav ul {
   display: flex;
 }
 
-nav ul li{
+nav ul li {
 
   padding: 20px;
   flex: 1;
 }
 
-nav ul li:hover{
+nav ul li:hover {
   background-color: antiquewhite;
   color: #2c3e50;
 
 }
 
 
-@media all and (max-width: 700px){
+@media all and (max-width: 700px) {
 
   nav ul {
     /*display: flex;*/
