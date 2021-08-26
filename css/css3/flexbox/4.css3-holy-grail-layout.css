@@ -1,5 +1,4 @@
 body {
-  /*background-color: #2c3e50;*/
   margin: 0;
   padding: 0;
   display: flex;
@@ -11,7 +10,6 @@ body {
 .header {
   background-color: antiquewhite;
   font-size: xxx-large;
-  /*height: 150px;*/
   text-align: center;
   color: black;
   padding: 50px;
@@ -25,7 +23,6 @@ body {
 .navbar {
 
   background-color: gold;
-  /*height: 400px;*/
 
   flex: 1;
   margin: 5px;
@@ -34,7 +31,6 @@ body {
 .article {
 
   background-color: cornflowerblue;
-  /*height: 400px;*/
 
   flex: 3;
   margin: 5px;
@@ -42,7 +38,6 @@ body {
 
 .asidepanel {
   background-color: darkgoldenrod;
-  /*height: 400px;*/
 
   margin: 5px;
   flex: 1;
@@ -51,7 +46,6 @@ body {
 .footer {
   background-color: antiquewhite;
   font-size: xxx-large;
-  /*height: 150px;*/
   text-align: center;
   color: black;
   padding: 50px;
